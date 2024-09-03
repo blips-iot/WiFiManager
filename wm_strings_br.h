@@ -66,13 +66,13 @@ const char HTTP_FORM_START[]       PROGMEM = "<form method='POST' action='{v}'>"
 const char HTTP_FORM_WIFI[]        PROGMEM = "<label for='s'>SSID</label><input id='s' name='s' maxlength='32' autocorrect='off' autocapitalize='none' placeholder='{v}'><br/><label for='p'>Password</label><input id='p' name='p' maxlength='64' type='password' placeholder='{p}'><input type='checkbox' id='showpass' onclick='f()'> <label for='showpass'>Show Password</label><br/>";
 const char HTTP_FORM_WIFI_END[]    PROGMEM = "";
 const char HTTP_FORM_STATIC_HEAD[] PROGMEM = "<hr><br/>";
-const char HTTP_FORM_END[]         PROGMEM = "<br/><br/><button type='submit'>Save</button></form>";
+const char HTTP_FORM_END[]         PROGMEM = "<br/><br/><button type='submit'>Salar</button></form>";
 const char HTTP_FORM_LABEL[]       PROGMEM = "<label for='{i}'>{t}</label>";
 const char HTTP_FORM_PARAM_HEAD[]  PROGMEM = "<hr><br/>";
 const char HTTP_FORM_PARAM[]       PROGMEM = "<br/><input id='{i}' name='{n}' maxlength='{l}' value='{v}' {c}>\n"; // do not remove newline!
 
 const char HTTP_SCAN_LINK[]        PROGMEM = "<br/><form action='/wifi?refresh=1' method='POST'><button name='refresh' value='1'>Atualizar</button></form>";
-const char HTTP_SAVED[]            PROGMEM = "<div class='msg'>Salvando credenciais...<br/>Tentando conectar a rede...<br />Em caso de falha, tente novamente</div>";
+const char HTTP_SAVED[]            PROGMEM = "<div class='msg'>Salvando credenciais e<br/> tentando conectar a rede...<br />Em caso de falha, tente novamente.</div>";
 const char HTTP_PARAMSAVED[]       PROGMEM = "<div class='msg S'>Salvo<br/></div>";
 const char HTTP_END[]              PROGMEM = "</div></body></html>";
 const char HTTP_ERASEBTN[]         PROGMEM = "<br/><form action='/erase' method='get'><button class='D'>Apagar configurações da WiFi</button></form>";
